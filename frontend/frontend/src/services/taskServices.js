@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/tasks";
+const API_URL = "https://task-manager-mern-1-ilyo.onrender.com/api/tasks";
 
 // Get all tasks
 export const getTasks = async () => {
